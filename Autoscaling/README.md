@@ -44,6 +44,11 @@ Resource Created using the Terraform Code
 ![image](https://github.com/devops-pritam/terraform/assets/132892500/c1f58132-9221-40b7-9abe-d37d9b97b265)
 
 
+# S3 Bucket stores the .tfstate file
+
+![image](https://github.com/devops-pritam/terraform/assets/132892500/d9be8494-2971-4b97-89c9-ae1b042d8481)
+
+
 # Challenge Faced :
 ## Challenge 1 :
 
