@@ -43,3 +43,35 @@ Resource Created using the Terraform Code
 ![image](https://github.com/devops-pritam/terraform/assets/132892500/9f137b9b-b1fd-4103-accf-bd434534f597)
 ![image](https://github.com/devops-pritam/terraform/assets/132892500/c1f58132-9221-40b7-9abe-d37d9b97b265)
 
+
+# Challenge Faced :
+## Challenge 1 :
+
+I faced one problem when applying ASG:
+
+│ Error: waiting for Auto Scaling Group (terraform-xxx) capacity satisfied: 2 errors occurred:
+
+│ * Scaling activity (xxx): Failed: Access denied when attempting to assume role arn:aws:iam::xxx:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling. Validating load balancer configuration failed.
+
+│ * Scaling activity (xxx): Failed: Access denied when attempting to assume role arn:aws:iam::xxx:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling. Validating load balancer configuration failed.
+
+
+## Solution :
+
+I've added AutoScalingFullAccess to user permissions and it worked.
+
+## Challenge 2 :
+
+I was getting ALB Health check issue from Target Groups
+
+## Solution :
+
+I was able to resolve by changing the AMI ID in the terraform variable.
+
+# Need Help ?
+
+Connect with my on my linkedin :
+
+# https://www.linkedin.com/in/pritamkumardey/
+
+
