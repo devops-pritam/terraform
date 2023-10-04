@@ -75,8 +75,6 @@ I was able to resolve by changing the AMI ID in the terraform variable.
 
 # Need Help ?
 
-Connect with my on my linkedin :
 
-# https://www.linkedin.com/in/pritamkumardey/
 
 
