@@ -28,8 +28,6 @@ depends_on = [
 
 # Need Help ?
 
-You can connect with me in linkedin
 
-# https://www.linkedin.com/in/pritamkumardey/
 
 
