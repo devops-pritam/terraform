@@ -1,6 +1,6 @@
-##This is a demo of how to Deploy Auto Scaling Group using pure Terraform Code.
+## This is a demo of how to Deploy Auto Scaling Group using pure Terraform Code.
 
-*Prerequisite
+# Prerequisite
 1) Already S3 Bucket 'pritam-test-autoscale-bucket' was created to store the state file.
 
 *Resource Created using the Terraform Code
